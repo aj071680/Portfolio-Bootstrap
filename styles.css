@@ -17,6 +17,12 @@ body {
    color: whitesmoke;
 
 }
+.container {
+    display: flex;
+    max-height: 10vh;
+    max-width: 30px;
+}
+
 
 .avatar {
     width: 10rem;
@@ -27,6 +33,37 @@ body {
 .full-height {
     height: 100%;
 }
+.fa {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 95%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #737477;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #737477;
+    color: white;
+    margin-left: 5px;
+  }
 .quote {
     float: right;
 }
@@ -58,7 +95,7 @@ a {
 
 @media (max-width: 768px) {
     .intro-left {
-        height: 30vh;
+        height: 100vh;
         margin-bottom: 0;
         position: relative;
         width: 100%;
